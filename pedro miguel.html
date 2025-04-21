@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite Especial - Pedro Miguel</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fundo1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .inner-box {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 50px 30px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      min-height: 80vh;
+      color: #000;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .monograma {
+      width: 380px;
+      margin-bottom: 10px;
+      margin-top: -100px;
+    }
+
+    h1 {
+      font-size: 2.7em;
+      margin-bottom: 20px;
+      margin-top: -5px;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 35px;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: rgba(224, 179, 76, 0.996);
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #857d73;
+    }
+
+    #videoContainer {
+      padding: 60px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    video {
+      width: 100%;
+      max-width: 100%;
+      max-height: 70vh;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-btn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 999;
+      transition: background-color 0.3s ease;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .whatsapp-btn.visible {
+      display: flex;
+    }
+
+    .whatsapp-btn img {
+      width: 32px;
+      height: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .monograma {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="inicio">
+    <div class="inner-box">
+      <img src="monograma.png" alt="Monograma" class="monograma" />
+      <h1>Querido Pedro Miguel</h1>
+      <p>É com muita alegria que convidamos você para fazer parte deste momento tão especial.</p>
+      <a href="#videoContainer"><button>Clique para ver algo especial</button></a>
+    </div>
+  </div>
+
+  <div id="videoContainer">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br/><br/>
+    <a href="#mensagemFinal"><button>Ver mensagem final</button></a>
+  </div>
+
+  <div class="container" id="mensagemFinal">
+    <div class="inner-box" style="min-height: 90vh; text-align: justify;">
+      <p>
+        <h1>Querido Pedro Miguel</h1>
+        <p>Esse aqui é, sem dúvida, um dos textos mais difíceis de escrever… porque como é que a gente coloca em palavras tudo o que você representa pra mim? Como é que se descreve um cara que simplesmente foi — e ainda é — meu melhor amigo, meu parceiro de vida, meu irmão?
+        <p>A gente se conhece desde moleque. Já rimos em momentos que ninguém entenderia, já choramos (ou quase, né… orgulho masculino às vezes atrapalha), já nos apoiamos quando tudo parecia desmoronar — e até quando tava tudo bem, você tava lá, me perturbando só por esporte hahaha. Mas sempre esteve ali.
+        <p>E agora, chegou um dos momentos mais importantes da minha vida. Tô dando um passo gigante ao lado da mulher que eu amo, construindo algo novo, e não faria sentido viver isso sem você do meu lado. Um cara que viu todas as fases da minha vida, que sabe das histórias boas, das ruins, das engraçadas e das vergonhosas.
+        <p>Pedro, com todas as suas loucuras, seu coração enorme e seu jeito único de ser irmão até quando ninguém pediu, quero te convidar pra mais uma aventura insana: ser meu padrinho de casamento.
+        <p>Sim, quero você ali comigo, como sempre esteve, pra dividir mais esse capítulo. Vamos juntos nessa, irmão?
+        <p>Uma dedicatória da Ana:
+        <p>Pedro, mesmo antes de te conhecer pessoalmente, o Yuri já falava de você como alguém essencial na vida dele. Quando nos conhecemos, entendi rapidinho o porquê: você é leal, divertido, cheio de energia e com um coração gigante. Me sinto muito sortuda por também ter ganhado sua amizade — e por dividir com você esse momento tão importante na nossa história. Vai ser incrível te ter como padrinho, comemorando com a gente do jeito mais especial possível.    
+        <p style="text-align: right; margin-top: 40px;">Com carinho,<br/>Ana e Yuri</p>
+    </div>
+  </div>
+
+  <a href="https://chat.whatsapp.com/JWQV6UhpEqi0lxGPDbMAsV" target="_blank" class="whatsapp-btn" aria-label="Entrar no grupo do WhatsApp">
+    <img src="whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <script>
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    const mensagemFinal = document.getElementById('mensagemFinal');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          whatsappBtn.classList.add('visible');
+        } else {
+          whatsappBtn.classList.remove('visible');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    observer.observe(mensagemFinal);
+  </script>
+</body>
+</html>
