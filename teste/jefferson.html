@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite Especial - Jefferson</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fundo1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .inner-box {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 50px 30px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      min-height: 80vh;
+      color: #000;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .monograma {
+      width: 380px;
+      margin-bottom: 10px;
+      margin-top: -100px;
+    }
+
+    h1 {
+      font-size: 2.7em;
+      margin-bottom: 20px;
+      margin-top: -5px;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 35px;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: rgba(224, 179, 76, 0.996);
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #857d73;
+    }
+
+    #videoContainer {
+      padding: 60px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    video {
+      width: 100%;
+      max-width: 100%;
+      max-height: 70vh;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-btn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 999;
+      transition: background-color 0.3s ease;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .whatsapp-btn.visible {
+      display: flex;
+    }
+
+    .whatsapp-btn img {
+      width: 32px;
+      height: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .monograma {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="inicio">
+    <div class="inner-box">
+      <img src="monograma.png" alt="Monograma" class="monograma" />
+      <h1>Querido Jefferson</h1>
+      <p>É com muita alegria que convidamos você para fazer parte deste momento tão especial.</p>
+      <a href="#videoContainer"><button>Clique para ver algo especial</button></a>
+    </div>
+  </div>
+
+  <div id="videoContainer">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br/><br/>
+    <a href="#mensagemFinal"><button>Ver mensagem final</button></a>
+  </div>
+
+  <div class="container" id="mensagemFinal">
+    <div class="inner-box" style="min-height: 90vh; text-align: justify;">
+      <p>
+        <h1>Querido Jefferson</h1>
+        <p>Hoje eu quero falar com você de um jeito diferente. Não só como primo… mas como irmão. Porque, na prática, foi isso que a vida fez da gente. Irmãos.A gente cresceu junto, lado a lado. Foram anos de brincadeiras, risadas, sonhos divididos e aprendizados vividos no mesmo passo. Enfrentamos juntos as primeiras quedas da vida, os desafios que nos fizeram crescer… e mesmo quando a vida levou cada um pra um canto, a nossa conexão nunca mudou. Sempre estivemos ali, um pro outro, nos momentos que realmente importavam.
+        <p>Você sempre foi uma referência pra mim. E olha que, tecnicamente, eu sou dois meses mais velho, hein! Mas a verdade é que eu sempre admirei o seu jeito de ser: íntegro, tranquilo, humilde, trabalhador, com um coração gigante. Um filho que dá orgulho, um ser humano raro. Mesmo sendo mais na sua, mais tímido, você nunca deixou de ser presença. E isso, pra mim, é o que realmente conta. Você é família. Você é raiz.
+        <p>Te ver ao meu lado em mais esse momento, nesse novo capítulo da minha vida, vai ser algo que vou guardar com carinho pra sempre. Porque tem coisas que são certas desde sempre, e você estar comigo nesse dia é uma delas.
+        <p>Por isso, Jefferson, quero te fazer um convite do fundo do coração: aceita ser meu padrinho de casamento?
+        <p>Vai ser uma honra imensa dividir esse momento tão especial com você. Mais do que uma escolha, é um sentimento.
+        <p>Te amo, meu irmão. E tamo junto, pra sempre.
+        <p>Uma dedicatória da Ana:
+        <p>Jeff, desde que entrei pra essa família, você sempre me passou uma paz difícil de explicar. Um jeito sereno, gentil, que acolhe sem esforço. Eu vejo no seu olhar o mesmo carinho com que o Yuri fala de você — e é impossível não admirar isso. Obrigada por ser esse irmão de alma pra ele, e por me receber com tanto afeto também. Vai ser lindo ter você como padrinho, fazendo parte de um dos dias mais importantes das nossas vidas.      
+        <p style="text-align: right; margin-top: 40px;">Com carinho,<br/>Ana e Yuri</p>
+    </div>
+  </div>
+
+  <a href="https://chat.whatsapp.com/JWQV6UhpEqi0lxGPDbMAsV" target="_blank" class="whatsapp-btn" aria-label="Entrar no grupo do WhatsApp">
+    <img src="whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <script>
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    const mensagemFinal = document.getElementById('mensagemFinal');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          whatsappBtn.classList.add('visible');
+        } else {
+          whatsappBtn.classList.remove('visible');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    observer.observe(mensagemFinal);
+  </script>
+</body>
+</html>

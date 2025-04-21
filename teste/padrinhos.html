@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite Especial</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fundo1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .inner-box {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 50px 30px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      min-height: 80vh;
+      color: #000;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .monograma {
+      width: 380px;
+      margin-bottom: 10px;
+      margin-top: -100px;
+    }
+
+    h1 {
+      font-size: 2.7em;
+      margin-bottom: 20px;
+      margin-top: -5px;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 35px;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: #ecaa4a;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #857d73;
+    }
+
+    #videoContainer, #mensagemFinal {
+      padding: 60px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    video {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    #mensagemFinal {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-top: 20px;
+      text-align: center;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="inicio">
+    <div class="inner-box">
+      <img src="monograma.png" alt="Monograma" class="monograma" />
+      <h1>Queridos Padrinhos</h1>
+      <p>É com muita alegria que convidamos vocês para fazerem parte deste momento tão especial.</p>
+      <a href="#videoContainer"><button>Clique para ver algo especial</button></a>
+    </div>
+  </div>
+
+  <div id="videoContainer">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br/><br/>
+    <a href="#mensagemFinal"><button>Ver mensagem final</button></a>
+  </div>
+
+  <div id="mensagemFinal">
+    <p>Obrigado por aceitarem fazer parte da nossa história. Vocês são muito importantes para nós e queremos dividir esse sonho com vocês!</p>
+    <p>Com carinho,</p>
+    <p>Yuri &amp; [Nome da Noiva]</p>
+  </div>
+</body>
+</html>

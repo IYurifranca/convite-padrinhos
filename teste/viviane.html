@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite Especial - Vivi</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fundo1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .inner-box {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 50px 30px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      min-height: 80vh;
+      color: #000;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .monograma {
+      width: 380px;
+      margin-bottom: 10px;
+      margin-top: -100px;
+    }
+
+    h1 {
+      font-size: 2.7em;
+      margin-bottom: 20px;
+      margin-top: -5px;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 35px;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: rgba(224, 179, 76, 0.996);
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #857d73;
+    }
+
+    #videoContainer {
+      padding: 60px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    video {
+      width: 100%;
+      max-width: 100%;
+      max-height: 70vh;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-btn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 999;
+      transition: background-color 0.3s ease;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .whatsapp-btn.visible {
+      display: flex;
+    }
+
+    .whatsapp-btn img {
+      width: 32px;
+      height: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .monograma {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="inicio">
+    <div class="inner-box">
+      <img src="monograma.png" alt="Monograma" class="monograma" />
+      <h1>Querida Vivi</h1>
+      <p>É com muita alegria que convidamos você para fazer parte deste momento tão especial.</p>
+      <a href="#videoContainer"><button>Clique para ver algo especial</button></a>
+    </div>
+  </div>
+
+  <div id="videoContainer">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br/><br/>
+    <a href="#mensagemFinal"><button>Ver mensagem final</button></a>
+  </div>
+
+  <div class="container" id="mensagemFinal">
+    <div class="inner-box" style="min-height: 90vh; text-align: justify;">
+      <p>
+        <h1>Querida amiga, minha prima Viviane</h1>
+        <p>Quem diria, hein? Lá no começo, quando tudo era novidade, a gente com aquele receio típico de quem tá entrando numa nova família… 	Desconfiadas, observando de longe… E olha só aonde chegamos. Firmes, fortes, e mais unidas do que nunca, duas cobras domesticadas e muito bem criadas.
+        <p>Hoje eu olho pra nossa amizade com tanta gratidão. Você é dessas pessoas raras: sinceras, intensas, corajosas, uma verdadeira força da natureza. E eu agradeço demais por ter você comigo. Por ser essa mulher incrível, com quem aprendi tanto, e que esteve presente em tantos momentos importantes da minha vida.
+        <p>Você não só fez parte da minha caminhada, como ajudou a construir junto comigo e com o Yuri o que hoje chamamos de lar. Sua presença, sua escuta, seus conselhos (mesmo os mais sincerões!), suas risadas e até nossas revoltas compartilhadas foram fundamentais para nossa evolução como casal.
+        <p>Você foi, é e sempre será parte da nossa história. Porque, mais do que uma prima por laços de família, você é alguém com quem aprendi a compartilhar o coração. A verdade é que nós somos mesmo as "cobras criadas" da família kk, mas só a gente sabe o quanto isso quer dizer que somos fortes, leais e que carregamos muitas batalhas vencidas. E mais do que isso: somos amigas de verdade, e temos muito mais em comum do que muita gente imagina.
+        <p>Por tudo isso, e por muito mais que o coração sente, mas nem sempre as palavras alcançam, quero te convidar para ser minha madrinha de casamento.
+        <p>Quero você ali, do meu lado, testemunhando um dos momentos mais importantes da minha vida, como tem sido em tantos outros. E quero que saiba que sua amizade, seu amor, e sua presença representam muito mais do que você imagina. Obrigada por ser exatamente quem é.
+        <p>E agora, uma mensagem do Yuri:
+        <p>Vivi, você sabe o quanto é querida e o quanto sua presença tem um valor enorme em nossa vida. Você se tornou mais do que a esposa do meu primo, você virou uma grande amiga, uma parceira, e alguém que sentimos como parte essencial da nossa família. Obrigado por estar conosco nessa jornada, por tudo o que representa, e por fazer parte da nossa união. Contar com você é um presente que levaremos pra sempre.
+      <p style="text-align: right; margin-top: 40px;">Com carinho,<br/>Ana e Yuri</p>
+    </div>
+  </div>
+
+  <a href="https://chat.whatsapp.com/F0ANz5QFmKB5Vp6vr1wPuy" target="_blank" class="whatsapp-btn" aria-label="Entrar no grupo do WhatsApp">
+    <img src="whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <script>
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    const mensagemFinal = document.getElementById('mensagemFinal');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          whatsappBtn.classList.add('visible');
+        } else {
+          whatsappBtn.classList.remove('visible');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    observer.observe(mensagemFinal);
+  </script>
+</body>
+</html>

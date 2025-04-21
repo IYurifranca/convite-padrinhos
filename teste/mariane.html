@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite Especial - Mari</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fundo1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .inner-box {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 50px 30px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      min-height: 80vh;
+      color: #000;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .monograma {
+      width: 380px;
+      margin-bottom: 10px;
+      margin-top: -100px;
+    }
+
+    h1 {
+      font-size: 2.7em;
+      margin-bottom: 20px;
+      margin-top: -5px;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 35px;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: rgba(224, 179, 76, 0.996);
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #857d73;
+    }
+
+    #videoContainer {
+      padding: 60px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    video {
+      width: 100%;
+      max-width: 100%;
+      max-height: 70vh;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-btn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 999;
+      transition: background-color 0.3s ease;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .whatsapp-btn.visible {
+      display: flex;
+    }
+
+    .whatsapp-btn img {
+      width: 32px;
+      height: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .monograma {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="inicio">
+    <div class="inner-box">
+      <img src="monograma.png" alt="Monograma" class="monograma" />
+      <h1>Querida Mariane</h1>
+      <p>É com muita alegria que convidamos você para fazer parte deste momento tão especial.</p>
+      <a href="#videoContainer"><button>Clique para ver algo especial</button></a>
+    </div>
+  </div>
+
+  <div id="videoContainer">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br/><br/>
+    <a href="#mensagemFinal"><button>Ver mensagem final</button></a>
+  </div>
+
+  <div class="container" id="mensagemFinal">
+    <div class="inner-box" style="min-height: 90vh; text-align: justify;">
+      <p>
+        <h1>Querida Mariane</h1>
+        <p>Quando você chegou na minha vida, confesso que o que senti foi uma mistura de medo e ansiedade. Era tudo novo, diferente… e eu não sabia como seria dividir tanto com alguém que, até então, eu conhecia só pelas bordas da família. Mas, como em toda boa história que vale a pena, os laços foram se formando devagarinho, e, antes que eu percebesse, o carinho já tinha virado amor, cuidado, parceria.
+        <p>Hoje, olho pra você e vejo muito mais do que uma prima. Vejo uma irmã mais nova que a vida me deu. Uma companheira com quem posso contar nos medos, nas angústias, nas alegrias e nas tristezas. Uma presença tão essencial que, sinceramente, não consigo imaginar como seria minha vida sem a sua chegada.</p>
+        <p>Tenho certeza de que a minha avó e a sua, onde quer que estejam, estão sorrindo vendo o quanto nos tornamos próximas. Elas sempre foram nossas raízes, nossos espelhos, e estariam emocionadas em ver que o amor que plantaram em nós floresceu em uma amizade tão linda, forte e verdadeira.</p>
+        <p>Você faz parte da nossa história, da minha e do Yuri, com seu jeito único, você nos ajudou a crescer, nos aconselhou, nos fez rir nos dias difíceis, e torceu por nós com o coração mais puro do mundo. Você é, sem dúvida, uma das pessoas mais importantes da nossa vida como casal.</p>
+        <p>Por tudo isso e por tudo que ainda vamos viver queremos te convidar para ser nossa madrinha de casamento. Porque não poderia ser diferente. Porque você é essencial.</p>
+        <p><strong>E o Yuri também quis deixar um recado especial pra você:</strong></p>
+        <p>Desde que comecei a fazer parte dessa família, e você chegou, percebi o quanto você é especial. O brilho no olhar quando fala com a Ana, a forma como se importa, como apoia, como se faz presente... Tudo isso fez com que eu te admirasse cada vez mais. Hoje, considero você uma amiga, alguém com quem sei que posso contar. E seria uma honra enorme ter você ao nosso lado como madrinha nesse momento tão especial.</p>
+      <p style="text-align: right; margin-top: 40px;">Com carinho,<br/>Ana e Yuri</p>
+    </div>
+  </div>
+
+  <a href="https://chat.whatsapp.com/F0ANz5QFmKB5Vp6vr1wPuy" target="_blank" class="whatsapp-btn" aria-label="Entrar no grupo do WhatsApp">
+    <img src="whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <script>
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    const mensagemFinal = document.getElementById('mensagemFinal');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          whatsappBtn.classList.add('visible');
+        } else {
+          whatsappBtn.classList.remove('visible');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    observer.observe(mensagemFinal);
+  </script>
+</body>
+</html>

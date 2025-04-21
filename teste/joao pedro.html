@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite Especial - João</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fundo1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .inner-box {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 50px 30px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      min-height: 80vh;
+      color: #000;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .monograma {
+      width: 380px;
+      margin-bottom: 10px;
+      margin-top: -100px;
+    }
+
+    h1 {
+      font-size: 2.7em;
+      margin-bottom: 20px;
+      margin-top: -5px;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 35px;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: rgba(224, 179, 76, 0.996);
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #857d73;
+    }
+
+    #videoContainer {
+      padding: 60px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    video {
+      width: 100%;
+      max-width: 100%;
+      max-height: 70vh;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-btn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 999;
+      transition: background-color 0.3s ease;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .whatsapp-btn.visible {
+      display: flex;
+    }
+
+    .whatsapp-btn img {
+      width: 32px;
+      height: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .monograma {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="inicio">
+    <div class="inner-box">
+      <img src="monograma.png" alt="Monograma" class="monograma" />
+      <h1>Querida João Pedro</h1>
+      <p>É com muita alegria que convidamos você para fazer parte deste momento tão especial.</p>
+      <a href="#videoContainer"><button>Clique para ver algo especial</button></a>
+    </div>
+  </div>
+
+  <div id="videoContainer">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br/><br/>
+    <a href="#mensagemFinal"><button>Ver mensagem final</button></a>
+  </div>
+
+  <div class="container" id="mensagemFinal">
+    <div class="inner-box" style="min-height: 90vh; text-align: justify;">
+      <p>
+        <h1>Querido João</h1>
+        <p>Você é, sem sombra de dúvidas, o primo mais amável do mundo. Daqueles que a gente sente orgulho só de ter por perto. Você tem uma luz própria, que ilumina qualquer lugar por onde passa — com sua alegria, espontaneidade, bom humor (e um certo escândalo no chuveiro quando resolve cantar, né? hahaha). Mas a verdade é que é impossível não te amar.
+        <p>E sabe o que mais me toca? É como você, com esse seu jeito único e verdadeiro, acolheu a Ana desde o começo. Ela se sentiu em casa por sua causa. Se sentiu parte da nossa bagunça, da nossa família. Ela me perguntava: “O João vai estar lá?” — como se sua presença fosse uma espécie de porto seguro pra ela. E era mesmo.
+        <p>Isso não tem preço. E eu só tenho a te agradecer. Por ser exatamente quem você é. Por ser coração, por ser afeto, por ser risada, por ser amor.
+        <p>E é por tudo isso — e por muito mais — que eu e Ana queremos te convidar para ser nosso padrinho de casamento.
+        <p>A gente não consegue imaginar esse momento tão importante sem você ao nosso lado. Sem sua vibe, sem sua risada alta, sem o seu jeito de fazer tudo mais leve. Vai ser uma honra e uma alegria gigantesca dividir isso contigo.
+        <p>Te amamos demais. E queremos você com a gente, nesse altar, como nosso padrinho e sempre como parte da nossa história.
+        <p>Nunca deixe o mundo tentar moldar quem você é. Você é perfeito sendo exatamente você.
+        <p>Uma dedicatória da Ana:
+        <p>João, desde o primeiro momento em que te conheci, eu senti algo diferente. Era como se eu já te conhecesse há muito tempo. Você tem esse dom — de fazer as pessoas se sentirem bem, seguras, queridas.
+        <p>Você me acolheu de um jeito que eu nunca vou esquecer. Me fez sentir parte da família mesmo antes de qualquer cerimônia oficial. Você tem um brilho que aquece quem está ao redor… e, pra mim, você virou família antes mesmo de eu me tornar oficialmente parte dela.
+        <p>Obrigada por existir do jeitinho que você é. Ter você como nosso padrinho vai ser uma das partes mais lindas do nosso casamento.      
+        <p style="text-align: right; margin-top: 40px;">Com carinho,<br/>Ana e Yuri</p>
+    </div>
+  </div>
+
+  <a href="https://chat.whatsapp.com/JWQV6UhpEqi0lxGPDbMAsV" target="_blank" class="whatsapp-btn" aria-label="Entrar no grupo do WhatsApp">
+    <img src="whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <script>
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    const mensagemFinal = document.getElementById('mensagemFinal');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          whatsappBtn.classList.add('visible');
+        } else {
+          whatsappBtn.classList.remove('visible');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    observer.observe(mensagemFinal);
+  </script>
+</body>
+</html>
